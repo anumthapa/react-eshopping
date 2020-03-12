@@ -27,7 +27,7 @@ export default class Navbar extends Component {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
         <li role ="presentation"><a href="#"><span class="glyphicon glyphicon-shopping-cart badge"></span> Cart</a></li>
       </ul>
     </div>
