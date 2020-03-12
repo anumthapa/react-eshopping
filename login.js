@@ -1,13 +1,7 @@
 import React, { Component }from "react";
-
+import "./login.css";
 export default class Login extends Component{
   render(){
-
-      // const style={{
-
-      // }
-      // }
-
     return(
       <div className="container ">
         <div className="row" >
@@ -37,18 +31,14 @@ export default class Login extends Component{
                               </div>
                       <div className="col-md-12 mb-3">
                         <p className="text-center">
-                        <a href="#" className="google btn mybtn"><i class="fa fa-google-plus"></i>SignUp Using Google</a></p>
-
+                        <a href="javascript:void();" className="google btn mybtn"><i class="fa fa-google-plus"></i>SignUp Using Google</a></p>
                       </div>
-                      <div className="col-md-12 text-center mb-3">
-                            <button type="submit" className="btn btnblock mybtn btn-primary tx-tfm">SignIn</button>
+                      <div className="form-group">
+                      <p className="text-center">Don't have account? <a href="#" id="signup">Sign Up here</a></p>
                       </div>
                     </div>
                     </div>
-                  
                   </form>
-   
-   
               </div>
             </div>
           </div>
@@ -56,5 +46,4 @@ export default class Login extends Component{
       </div>
     );
   };
-
 }
