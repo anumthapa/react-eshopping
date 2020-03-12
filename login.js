@@ -3,7 +3,7 @@ import React, { Component }from "react";
 export default class Login extends Component{
   render(){
     return(
-      <div className="container">
+      <div className="container ">
         <div className="row">
           <div className="col-md-5 mx-auto">
             <div id ="first">
@@ -16,6 +16,8 @@ export default class Login extends Component{
                   <form action="" method="post" name="login">
                     <div className="form-group">
                       <label for="InputEmail">Email address </label>
+                      <input type="email" name="email" class="form-control" id="email" aria-describedby="enailHelp" placeholder="Enter email"></input>
+                     <label for="InputPassword">Email address </label>
                       <input type="email" name="email" class="form-control" id="email" aria-describedby="enailHelp" placeholder="Enter email"></input>
                     
                     </div>

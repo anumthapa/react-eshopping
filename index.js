@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import Navbar from "./Navbar";
 import './style.css';
+import Login from "./login";
 
 class App extends Component {
   constructor() {
@@ -14,12 +15,10 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container" text-align="ceonter">
       <Navbar/>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
+      <Login />
+       
       </div>
     );
   }
