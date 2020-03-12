@@ -16,9 +16,9 @@ export default class Login extends Component{
                   <form action="" method="post" name="login">
                     <div className="form-group">
                       <label for="InputEmail">Email address </label>
-                      <input type="email" name="email" class="form-control" id="email" aria-describedby="enailHelp" placeholder="Enter email"></input>
-                     <label for="InputPassword">Email address </label>
-                      <input type="email" name="email" class="form-control" id="email" aria-describedby="enailHelp" placeholder="Enter email"></input>
+                      <input type="email" name="email" class="form-control" id="email" aria-describedby="enailHelp" placeholder="Enter Email"></input><br/>
+                     <label for="InputPassword">Password </label>
+                      <input type="email" name="email" class="form-control" id="email" aria-describedby="enailHelp" placeholder="Enter Password"></input>
                     
                     </div>
                   
