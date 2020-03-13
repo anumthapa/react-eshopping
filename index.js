@@ -4,6 +4,7 @@ import Hello from './Hello';
 import Navbar from "./Navbar";
 import './style.css';
 import Login from "./login";
+import Buttonfilemodel from "./Buttonfilemodel";
 
 class App extends Component {
   constructor() {
@@ -17,8 +18,8 @@ class App extends Component {
     return (
       <div >
       <Navbar/>
-      <Login />
-       
+      // <Login />
+       <Buttonfilemodel />
       </div>
     );
   }
