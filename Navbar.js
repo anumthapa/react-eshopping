@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 // import styled from "styled-components";
-
+import login from "./login";
 export default class Navbar extends Component {
     render(){
         return(
@@ -13,7 +13,7 @@ export default class Navbar extends Component {
        aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">E-Shopping</a>
     </div>
@@ -27,7 +27,7 @@ export default class Navbar extends Component {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
-        <li><a href="#" data-toggle="modal" data-target="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#first" tabindex="-1" aria-hidden ="true"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
         <li role ="presentation"><a href="#"><span class="glyphicon glyphicon-shopping-cart badge"></span> Cart</a></li>
       </ul>
     </div>
