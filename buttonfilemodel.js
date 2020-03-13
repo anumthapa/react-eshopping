@@ -5,7 +5,6 @@ export default class Buttonfilemodel extends Component{
     return(
         <div className="container">
             <div className="modal fade" role="dialog">
-              // heading tabindex="-1" 
 
 
               <div className="modal-dialog" role="document"> 

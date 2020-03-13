@@ -4,8 +4,8 @@ import Hello from './Hello';
 import Navbar from "./Navbar";
 import './style.css';
 import Login from "./login";
-import Buttonfilemodel from "./Buttonfilemodel";
-
+import Buttonfilemodel from "./buttonfilemodel";
+import Items from "./items";
 class App extends Component {
   constructor() {
     super();
@@ -18,8 +18,8 @@ class App extends Component {
     return (
       <div >
       <Navbar/>
-      // <Login />
-       <Buttonfilemodel />
+      
+       <Items />
       </div>
     );
   }
