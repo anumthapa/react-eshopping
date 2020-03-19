@@ -5,8 +5,6 @@ export default class Buttonfilemodel extends Component{
     return(
         <div className="container">
             <div className="modal fade" role="dialog">
-
-
               <div className="modal-dialog" role="document"> 
                       <div className="modal-content">
                         <div className="modal-header">
@@ -40,22 +38,11 @@ export default class Buttonfilemodel extends Component{
                       </div>
                     </div>
                     </div>
-                  </form>
-                      
+                  </form>  
                       </div>
-                      </div>
-                // body
-
-
-
-              // content
-            
-              
+                      </div>          
               </div>
-
-
-              </div>
-        
+              </div>    
         </div>
 
 

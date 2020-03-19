@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
-// import styled from "styled-components";
+
 import login from "./login";
+
 export default class Navbar extends Component {
     render(){
         return(
-            <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button"
-       class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"
-       aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button"
+         class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"
+          aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -26,10 +26,8 @@ export default class Navbar extends Component {
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
         <li><a href="#" data-toggle="modal" data-target="#first" tabindex="-1" aria-hidden ="true"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
-        
-        <li role ="presentation"><a href="#"><span class="glyphicon glyphicon-shopping-cart badge"></span> Cart</a></li>
+        <li role ="presentation"><a href="#"><span class="glyphicon glyphicon-shopping-cart badge"></span> Cart </a></li>
       </ul>
     </div>
   </div>

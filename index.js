@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <div >
       <Navbar/>
-      
+      <Hello />
        <Items />
       </div>
     );

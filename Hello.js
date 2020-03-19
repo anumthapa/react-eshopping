@@ -1,3 +1,15 @@
-import React from 'react';
+import React ,{Component }from 'react';
 
-export default ({ name }) => <h1>Hello {name}!</h1>;
+
+export default class Hello extends Component{
+  render(){
+     return(
+       <div className="container">
+          <h1>Items</h1>
+
+       </div>
+
+     );
+  };
+  }
+
