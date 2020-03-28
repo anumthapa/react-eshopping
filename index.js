@@ -4,14 +4,10 @@ import {Router, Switch} from "react-router-dom";
 import Hello from './Hello';
 import Navbar from "./Navbar";
 import Shop from "./shop";
-import Shopall from "./Shopall";
 import './style.css';
 import Login from "./login";
 import Buttonfilemodel from "./buttonfilemodel";
 import Items from "./items";
-
-
-
 
 class App extends Component {
   constructor() {
@@ -21,27 +17,20 @@ class App extends Component {
     };
   }
 
-
-
-
   render() {
     return (
       <React.Fragment>
       <Navbar/>
-      <Shop/>
-      <Shopall/>
+      <Shop/> 
     </React.Fragment>
 
-      //  <
+      //  <Switch>
 
       //  <Router path ="#" component ={ProductList}/>
       //  <Router path ="/details" component ={Details}/>
       //  <Router path ="/cart" component ={Cart}/>
        
       //  </Switch>
-
-     
-   
     );
   }
 }
