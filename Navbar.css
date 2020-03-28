@@ -1,0 +1,87 @@
+/* .btn-primary {
+    color: #fff;
+    background-color: #7971ea;
+    border-color: #7971ea;
+} */
+
+
+.logo-shop{
+    display:block;
+}
+
+/* .text-center{
+    text-align: center!important;
+} */
+
+.site-navbar .site-logo a{
+    /* text-align: center!important; */
+    text-transform: uppercase;
+    color: #25262a;
+    letter-spacing: .2em;
+    font-size:20px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border:2px solid #25262a;
+}
+
+a.logo-shop,.site-logo{
+    text-align: center!important;
+    transition: .3s all ease;
+    text-decoration: none;
+    background-color: transparent;
+}
+.site-logo{
+    width:200px;
+    height:100px;
+    /* padding-left:250px; */
+}
+/* }}
+.col-12.mb-3.mb-3.md-0.col-md-4{
+    text-align: center!important;
+    padding-left:250px;
+} */
+
+.col-12.col-md-2.site-logo.logo-shop{
+    position: relative;
+    width:100%;
+    padding-right: 115px;
+    padding-left: 115px;
+    text-align: center!important;
+}
+.col-12.col-md-2{
+    position: relative;
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center!important;
+    padding-left:300px ;
+}
+
+
+.col-6.col-md-4.order-3.order-md-3.text-right{
+    text-align: right!important;
+}
+
+.site-top-icons{
+    text-decoration: none;
+    display:block;
+    position: relative;
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.site-navbar{
+width:278;
+
+}
+
+
+.col-12.col-md-2.py-2{
+  padding-left: 3px;
+}
+
+
+#navbarbtn{
+ margin-bottom: 62px;
+}
