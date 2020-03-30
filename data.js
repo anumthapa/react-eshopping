@@ -3,7 +3,7 @@ export const storeProducts = [
 {
   id: 1, 
   title : " Martin & Co Guitar",
-  img: "",
+  img: "../components/img/cloth1.jpg",
   price: 500,
   company: "Martin & Co",
   info:
@@ -15,7 +15,7 @@ export const storeProducts = [
 {
   id: 1, 
   title : " Martin & Co Guitar",
-  img: "",
+  img: "..../components/img/cloth1.jpg",
   price: 500,
   company: "Martin & Co",
   info:
@@ -29,7 +29,7 @@ export const storeProducts = [
 export const detailProduct = {
   id :1,
   title : "Martin & Co Guitar",
-  img:"",
+  img:"../components/img/cloth1.jpg",
   company: "Martin & Co ",
   info :" This is the Used Guitar from the Project 1833",
   inCart: false,
