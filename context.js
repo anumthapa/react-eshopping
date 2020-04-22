@@ -42,9 +42,13 @@ openModal = id=>{
     return{modalProduct: product, modalOpen: true};
   });
 };
+/* Close Modal*/
   closeModal = ()=>{
-
-  }
+    this.setState(()=>{
+      return{
+        modalOpen:false};
+        });
+  };
 
 
 render(){
