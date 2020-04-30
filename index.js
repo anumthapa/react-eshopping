@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import { Router, Switch } from "react-router-dom";
-import Hello from "./Hello";
+// import Hello from "./Hello";
 import Navbar from "./Navbar";
-import Shop from "./shop";
-import Shopall from "./Shopall";
-import ShopSingle from "./ShopSingle";
+// import Shop from "./shop";
+// import Shopall from "./Shopall";
+// import ShopSingle from "./ShopSingle";
 import "./style.css";
-import Login from "./login";
-import Buttonfilemodel from "./buttonfilemodel";
-import Items from "./items";
+// import Login from "./login";
+// import Buttonfilemodel from "./buttonfilemodel";
+// import Items from "./items";
 
 class App extends Component {
   constructor() {
@@ -23,9 +23,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <Shop />
-        <ShopSingle />
-        <Shopall />
+       
       </React.Fragment>
 
       //  <Switch>
